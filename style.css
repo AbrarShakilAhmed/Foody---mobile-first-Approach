@@ -26,14 +26,43 @@
 header .nav-list {
   display: block;
   text-align: center;
+  /* width: 60%; */
+  margin: 0 auto;
+  background: #d7ffe9;
+  padding: 30px;
 }
 
 header .nav-list a {
   display: inline-block;
   margin: 10px;
+  color: #000;
 }
 
 header button {
   border: none;
 }
+
+#menu-exit {
+  background-color: #06c167;
+  width: 30%;
+  color: #fff;
+  padding: 10px 24px;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
