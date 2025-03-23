@@ -1,22 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'inter';
-  src: url('./font/Inter_18pt-Black.ttf');
-}
-@font-face {
-  font-family: 'popins';
-  src: url('./font/Poppins-Black.ttf');
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  background: #f3fcf7;
+  box-shadow: 3px px 1px rgba(0, 0, 0, 0.075);
 }
 
-header {
-  display: flex;
+header .logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  color: #06c167;
+  font-weight: 500;
 }
 
 header .nav-list {
-  display: none;
+  display: block;
 }
