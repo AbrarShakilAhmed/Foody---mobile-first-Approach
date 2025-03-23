@@ -37,6 +37,10 @@ header .nav-list a {
   margin: 10px;
   color: #000;
 }
+header .nav-list a:hover {
+  font-size: 1.2em;
+  background-color: #06c167;
+}
 
 header button {
   border: none;
@@ -48,21 +52,5 @@ header button {
   color: #fff;
   padding: 10px 24px;
   margin-top: 30px;
+  border-radius: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
