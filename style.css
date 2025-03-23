@@ -24,7 +24,7 @@
 }
 
 header .nav-list {
-  display: block;
+  display: none;
   text-align: center;
   /* width: 60%; */
   margin: 0 auto;
@@ -34,12 +34,25 @@ header .nav-list {
 
 header .nav-list a {
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
   color: #000;
+  position: relative;
 }
+
 header .nav-list a:hover {
-  font-size: 1.2em;
+  color: #06c167;
+}
+header .nav-list a:hover::after {
+  content: '';
+  display: block;
   background-color: #06c167;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  margin-left: -3px;
 }
 
 header button {
