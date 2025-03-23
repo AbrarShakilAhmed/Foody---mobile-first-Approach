@@ -1,15 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 @font-face {
-  font-family:"inter" ;
-  src: url("./font/Inter_18pt-Black.ttf");
+  font-family: 'inter';
+  src: url('./font/Inter_18pt-Black.ttf');
 }
 @font-face {
-  font-family:"popins" ;
-  src: url("./font/Poppins-Black.ttf");
+  font-family: 'popins';
+  src: url('./font/Poppins-Black.ttf');
+}
+
+header {
+  display: flex;
+}
+
+header .nav-list {
+  display: none;
 }
