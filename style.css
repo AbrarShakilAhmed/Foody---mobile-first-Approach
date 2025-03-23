@@ -4,9 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
 }
 
-.mobile-header {
+.moblie-header {
   display: flex;
   justify-content: space-between;
   padding: 25px 30px;
@@ -14,8 +17,7 @@
   box-shadow: 3px px 1px rgba(0, 0, 0, 0.075);
 }
 
-header .logo {
-  font-family: 'Inter', sans-serif;
+.moblie-header .logo {
   font-size: 32px;
   color: #06c167;
   font-weight: 500;
@@ -23,4 +25,15 @@ header .logo {
 
 header .nav-list {
   display: block;
+  text-align: center;
 }
+
+header .nav-list a {
+  display: inline-block;
+  margin: 10px;
+}
+
+header button {
+  border: none;
+}
+
