@@ -34,7 +34,7 @@ header .nav-list {
 
 header .nav-list a {
   display: inline-block;
-  margin: 20px;
+  margin: 15px;
   color: #000;
   position: relative;
 }
@@ -57,6 +57,7 @@ header .nav-list a:hover::after {
 
 header button {
   border: none;
+  background-color: transparent;
 }
 
 #menu-exit {
@@ -93,6 +94,10 @@ header button {
   background-color: #06c167;
   color: #fff;
   border: none;
+}
+
+.common-btn:hover {
+  background-color: #069952;
 }
 .hero-text > .common-btn {
   width: 100%;
