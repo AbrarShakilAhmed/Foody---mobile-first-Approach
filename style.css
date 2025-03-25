@@ -105,7 +105,7 @@ header button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   padding: 20px 30px;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 0 0;
 }
 
 .hero-text > .common-btn > img {
@@ -113,11 +113,14 @@ header button {
 }
 .hero-container .banner {
   position: relative;
-  height: 350px;
+  bottom: -100px;
 }
 .hero-container .hero-banner {
   margin-top: 0px;
   position: relative;
+}
+.hero-banner img:nth-of-type(1) {
+  width: 100%;
 }
 
 .hero-banner img:nth-of-type(3) {
@@ -160,8 +163,9 @@ header button {
 }
 
 .service-area .single-service {
-  margin: 40px 20px;
+  margin: 50px;
   text-align: center;
+  flex: 1;
 }
 
 .single-service h3 {
