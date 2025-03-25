@@ -68,6 +68,10 @@ header {
   border-radius: 5px;
   background-color: #06c167;
   color: #fff;
+  &:hover {
+    background-color: #069952;
+    transition: 0.3s;
+  }
 }
 
 .hero-container {
