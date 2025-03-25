@@ -146,9 +146,32 @@ header button {
   margin: 30px;
 }
 
-.company-logo .hr-line {
+.hr-line {
   height: 2px;
   width: 80%;
   margin: 50px auto;
   background-color: rgb(214, 217, 219);
+}
+
+.service-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-area .single-service {
+  margin: 40px 20px;
+  text-align: center;
+}
+
+.single-service h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #1d1d1f;
+  font-size: 18px;
+  font-weight: 400;
+}
+.single-service > p {
+  font-size: 14px;
+  font-weight: 500;
 }
