@@ -28,9 +28,11 @@ header {
     display: none;
     text-align: center;
     margin: 0 auto;
-    background: #d7ffe9;
+    background: #8ff7be;
     padding: 30px;
-
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.103);
+    z-index: 3;
+    position: relative;
     a {
       display: inline-block;
       margin: 15px;
