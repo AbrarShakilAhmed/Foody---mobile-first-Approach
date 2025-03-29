@@ -93,7 +93,7 @@ header {
       margin: 20px 0;
     }
 
-    > .common-btn {
+     .common-btn {
       width: 100%;
       padding: 20px 30px;
       margin: 50px 0 0;
@@ -209,25 +209,29 @@ header {
   top: -20px;
 }
 
-.bn-text{
+.bn-text ,.star-text{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   position: relative;
+
+
+  >.back-potdot{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+  }
   
   h2{
     font-size: 35px;
     margin: 20px;
     font-weight: 500;
     color: #1D1D1F;
+    text-align: center;
   }
-  .back-potdot{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-  }
+
   ul{
     margin-top: 40px;
     margin-bottom: 30px;
@@ -239,5 +243,41 @@ header {
   }
   ul li img{
     margin-right: 10px;
+  }
+
+  .star-discription div{
+    margin: 40px;
+    text-align: center;
+    >p:nth-of-type(1){
+      color: #06C167;
+      font-weight: 600;
+      font-size: 40px;
+    }
+    >p:nth-of-type(2){
+      color: #1D1D1F;
+      font-size: 15px;
+      margin: 10px;
+    }
+  }
+  .common-btn {
+    width: 100%;
+    padding: 20px 30px;
+    margin: 50px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #06c167;
+    color: #fff;
+    border: none;
+
+    &:hover {
+      background-color: #069952;
+    }
+
+    > img {
+      margin-left: 30px;
+    }
   }
 }
