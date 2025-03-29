@@ -9,12 +9,15 @@
   font-family: 'Inter', sans-serif;
 }
 
+
+
 .moblie-header {
   display: flex;
   justify-content: space-between;
   padding: 25px 30px;
   background: #f3fcf7;
-  box-shadow: 3px 0 1px rgba(0, 0, 0, 0.075);
+  box-shadow: 3px 2px 3px 1px rgba(5, 58, 27, 0.112);
+  margin-bottom: 1px;
 }
 
 .moblie-header .logo {
