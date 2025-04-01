@@ -108,6 +108,7 @@ header {
       background-color: #06c167;
       color: #fff;
       border: none;
+      transition: 0.2s ease;
 
       &:hover {
         background-color: #069952;
